@@ -7,7 +7,7 @@ function ChildA() {
    
   return (
     <div>
-       <ChildB />
+      
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { useState,createContext } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import './App.css'
 import ChildA from './ChildA';
+import ChildC from './ChildC';
 
 const data = createContext();
 
@@ -15,9 +16,9 @@ function App() {
     
       <div className='container'>
 
-<data.Provider value={{name,gender,age}}>
+      <data.Provider value={{name,gender,age}}>
             
-            <ChildA />
+           <ChildC />
           
         </data.Provider>
     </div>
